@@ -45,6 +45,10 @@ export default function Home() {
             <h2>Checkboxes 2</h2>
             <p><Checkbox id={1}/><Checkbox id={2}/></p>
           </span>
+          <span className={styles.card}>
+            <h2>Checkboxes 3 (different)</h2>
+            <p><Checkbox id={3}/><Checkbox id={4}/></p>
+          </span>
         </div>
       </main>
 
